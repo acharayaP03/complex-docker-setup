@@ -1,0 +1,19 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "worker app for our complex app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "worker"
+  ],
+  "author": "trishten ac",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.16",
+    "redis": "^4.1.0"
+  }
+}
